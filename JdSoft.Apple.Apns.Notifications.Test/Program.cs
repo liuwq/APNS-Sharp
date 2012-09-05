@@ -18,15 +18,16 @@ namespace JdSoft.Apple.Apns.Test
 			bool sandbox = true;
 
 			//Put your device token in here
-			string testDeviceToken = "fe58fc8f527c363d1b775dca133e04bff24dc5032d08836992395cc56bfa62ef";
+//d267a60e03740627eb099942c99c9b19ab616e372716155625c0216142e767b8
+			string testDeviceToken = "d267a60e03740627eb099942c99c9b19ab616e372716155625c0216142e767b8";
 			
 			//Put your PKCS12 .p12 or .pfx filename here.
 			// Assumes it is in the same directory as your app
-			string p12File = "apn_developer_identity.p12";
+			string p12File = "apn_development.p12";
 
 			//This is the password that you protected your p12File 
 			//  If you did not use a password, set it as null or an empty string
-			string p12FilePassword = "yourpassword";
+			string p12FilePassword = "liuwq110710";
 
 			//Number of notifications to send
 			int count = 3;
